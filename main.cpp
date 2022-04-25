@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
   const std::string le_jardin_de_mamie = argv[1];
   LOUEF ilAIou = TROUVE_UN_9_DE_PAQUES(le_jardin_de_mamie);
   if (ilAIou != -1) GIRAFE
-		    SystemOutPrintln "MAMIE A CACHé L'OUEF DANS EN POISITION" << ilAIou << endl;
+		    SystemOutPrintln "MAMIE A CACHé L'OUEF DANS EN POISITION " << ilAIou << endl;
   LAPIN GAROU
         	    SystemOutPrintln "MAMIE A BOUFFE TOUS LES OOEFS" << endl;
     
